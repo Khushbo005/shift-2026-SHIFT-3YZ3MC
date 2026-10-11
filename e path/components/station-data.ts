@@ -1,0 +1,1 @@
+export type Station = { name: string; area: string; batteries: number; total: number; tariff: number; status: 'open' | 'closed'; type: 'swapping' | 'charging'; coords: [number, number]; city: string }
